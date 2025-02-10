@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Kathyusca Carrillo - Psicóloga Educativa</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <div class="caja">
+                <img class= "logo" src="Resources/Logo.png" alt="Logo">
+                <nav>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre mi.html">Sobre mí</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </nav>   
+            </div> 
+        </header>
+
+        <main>
+            <div class="content-index">
+                <section class="title-principal">
+                    <h2 class="name-perfil">Kathyusca Carrillo, Psicóloga Educativa</h2>
+                    <p class="description-index">"Me apasiona ayudar a estudiantes, familias y comunidades educativas a desarrollar su potencial emocional y cognitivo."<p>
+                </section>
+                <img class="perfil" src="Resources/katiusca.jpeg" alt="Kathyusca-foto">
+            </div>
+
+            <div class="slider">
+                <div class="slider-title"><h2>Registro de Prácticas Educativas</h2></div>
+                <div class="slides">
+                    <img src="Resources/ayuda1.jpeg" alt="Imagen 1">
+                    <img src="Resources/ayuda2.jpeg" alt="Imagen 2">
+                    <img src="Resources/conferencia1.jpeg" alt="Imagen 3">
+                    <img src="Resources/libros1.jpeg" alt="Imagen 4">
+                    <img src="Resources/libros2.jpeg" alt="Imagen 5">
+                    <img src="Resources/libros4.jpeg" alt="Imagen 6">
+                    <img src="Resources/niños1.jpeg" alt="Imagen 7">
+                    <img src="Resources/niños2.jpeg" alt="Imagen 8">
+                    <img src="Resources/niños3.jpeg" alt="Imagen 9">
+                </div>
+                <!-- Controles del slider -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+                
+            </div>
+            
+            <script src="slides.js"></script>
+
+            <div class="video-container">
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/qO24d81WagA?si=OkxQ-RHnq5zkheEW" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+            
+        </main>
+        <footer>
+            <p class="copyright">&copy Copyright Kathyusca Carrillo - 2024</p>
+        </footer>
+    </body>
+</html>
